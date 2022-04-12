@@ -5,8 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Início-Netflix</title>
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico"/>
+
+    <title>Início-Netflix-Clone</title>
 </head>
 
 <body>
@@ -22,19 +33,54 @@
         </div>
     </header>
     <main>
-        <div class="filme-principal">
-            <div class="container">
+        <div class="container">
+            <div class="filme-principal">
                 <h3 class="titulo">BREAKING BAD</h3>
                 <p class="descricao">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da
                     família, mudando o destino de todos.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">Assistir</button>
-                    <button role="button" class="botao">Mais informações</button>
+                    <button role="button" class="botao"><i class="fa-solid fa-play"></i>Assistir</button>
+                    <button role="button" class="botao"><i class="fa-solid fa-circle-info"></i>Mais informações</button>
                 </div>
             </div>
-
+        </div>
         </div>
     </main>
-</body>
 
+    <div class="carrossel-filmes">
+        <div class="titulo-carrossel"><h3>Em alta</h3></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABelEaXuOJPk6nCzhXaFaCAeaIq2UATe9NQUlb8IzJJ5XRuxU8QJ9OKq5RqQTabY8A_J5WReBLMIUglSqUF65XRop3Jk.webp?r=d17" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSLdEZgvyKQIMD0dp8TsZw30OjIpV9kdt3dzYC9F0arbypbKfGAigkUgf9UMhsc-ODOZ8JiOuIRX3GzGjB0xn6uGh9ieomcm8t8cSE73UttxApi0CfW6v3kNd_5Z.jpg?r=2c2" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUWU13q0t_JFgJHxgLnqkdDzPrtD9oWpr_TNFTlgAbnYtD0OdBCddrJoR9uv1Ekx0IgECR6ZxI58quNcZP6fH9krQCg.webp?r=615" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABVHUOJmTjLhLc6CDwpJaXOA3IoOiM1qo4WvLEoc4Zn1IIjr2jmmteI9Gnl8a2qcJ-YrZK7KWieXnggH5Rw4J6LoUCINgmy1qTWyXTrInMwN_BkNR7UMqJD6F0LBN.jpg?r=0dc" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSL1eCLKJlSXctXwGwE1tMT5sVoyIImwkpnzopOZp7nuYVVSX187dKbT58aQAFjvYPFCdGQ4psIHis0vHn5yK345Gr-AhAuHcPAivWKlwRKkPWjsvkuTu2vXv3A_.jpg?r=bfd" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWLEXzpMvYOReB3BjxS6uAs-N3_TTAqzhJM5p9RF9kG5i9L9eLLqOVNwZkcluB6xtFvGW2DJNoOFWw3K1GCK3qfSx-J22JOGbVJoum2w92e5jFNINMWyNcgi5ZiP.jpg?r=c3c" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSEl8LWx4tMJIM9Atm3F1Y49Uq6X01tnDe8gPA6d84-gQ767saz9z7Jxj9sFozuI8bcM2vlxeP9IPq3Aa7jxLlkMu8JGjizRLblNEcmD7g-Z2NeZvkvV5nWF9DmJ.jpg?r=393" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABSf41yKBUnekvd8r_lu4ffomP93ioDYEOAe0sC0v2kN2CQVlIdPgn8Wd-RvgsqO8SnqLYIlX0p-ZLL8v5_2x6e1jp2GXN-ANtBvreLtsyDUuR77-5F8hmpOaASyw.jpg?r=494" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbZxiDg8lIT7ejTd5FmBJQSbVYVzqrmTKEIjFhPG0m824Ra4z0YrQY7J27eRX6lXs_kPJmnVPKAZil0GI3hbsAIF6odCimyXGE_U4ghJlWNoesrYYEBdnVHwceMm.jpg?r=131" alt=""></div>
+        </div>
+    </div>
+    <div class="carrossel-filmes">
+        <div class="titulo-carrossel"><h3>Top 10 no Brasil hoje</h3></div>
+        <div class="owl-carousel owl-theme carrossel-top">
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABaXu3hj6Mw3PnB4qzsX4u5_qWcKhRTI43jY9Jt3PhNbQSydWZIMoU5lLABBbReiPhx5nK24HCnLpqU7VyRRT4drdVn9giDHoWVXwO2lTL9b3alHqUw14sH31DIbJPjKEUE6ko23uF6xUnXkizE0R8qOdClTKzJo.webp?r=ede" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABe89_mRCZQv_F21cd0brFaxZ0d-C2PYE8fjdWGobc0GsH3UUOYdDam2ZncRRFMCaxWoEpfypyqmtBfeN48YX7KS2K3qZmIaEWWGE2Tm6tlfDeBU6aU5ax_sltsP2Lw.webp?r=7a3" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABR7IkEY7Wcdekp8SzFHpWvl_dWAQNS7J9klV0Qm5oda4jSm9GDsFUmKyrQOTltBhjq7fFBvxGCSVHxq2IZlLyMwrLD7-31yby5BUPLiDOmpP4w6WfCyLZP5DQTudTV4Kl1wmHS3UyXd9onD2Qoxjp4UTICDv6Cc.webp?r=5b0" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABQrnjHirKtTJfKhVEc8r9qtbg5ohZWIcvslCTUUCCgOZqeFQ07bEliJZOLOXV7GnMx49indG2alfIU2ZLqCv-N_izVGoHOC4mzNQKqaXlLX7K8iUxPFjCskfwBFOig.webp?r=649" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZySCslKrdHopng5mxtH4YQ-LK8vBL6kfMtVrnlqy2wV-ltStOcdJoREWxUrT0q8i4gAw1so9H-61rZd6_YQzFpet8QWxVetU-bcSiKXaB1z93eH4-DlhYP5l6Q4CFkboL0.webp?r=1e1" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABYhTC6RfTVVB-bPMCDdN6BrO1KK43BfK5k4GP2C2x54C4vkl23DCENpuUeXG7y9CYQE1b5_8IR_6EedXXQd1QkWfSLYOo_YXhqyktES0VGeTbMTXTUUmi0zj_sloKA.webp?r=efd" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABYt8pHeInEc9nnraBQ4orpVA9ishy9DDnP9n-Np14cVS2Noh1j-JoHWHv1wLyJdxX4roUJ3M-sILVIK130d2f7HwMMLS.webp?r=8d9" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABRylO3qNEYRGGMA1eA4pZxXhbPdKHJLS4Xj-EXeBFyry3SrE6iHp9Uc5QR53zuBqG1siwfynjFJPhMGHwceO7cft31xI47OnMM7p0YSCd7IH1TYw1JebhlTzKdluynCDWzIFyQz1NCEkdy-sWnrWysvZs3E3mAX1e1H__vyPvQ.webp?r=ae0" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABZiRGDZ4qjKlIivUtzJtTGhlag1oFPRmIB6W3ORsTpkPe024WqrqfNCa-qOIj21Xo-3qa0BTzjGjDlbuQmXOm007_QRI.webp?r=462" alt=""></div>
+            <div class="item box-filme"><img src="https://occ-0-125-1123.1.nflxso.net/dnm/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABX7YAyrEB3yHWWxtPRVmkHR3KmXJZl5EezUwu2pXEhGtUFHo-b2whBttIIKAuoph4kVEw-taMofBZMy3yJzU1ejBYlc4a-FVYrjqQHa5eoy9xpw1KGUKqvCS-_AkYySIXl4fFulPAik-raqoUzFq7M_-rhhefBN4Roaq1bFI4A.webp?r=1f3" alt=""></div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e916da1fb8.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
 </html>
